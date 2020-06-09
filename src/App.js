@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Madred from './madrid.js' ;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div
+      style={{
+         backgroundImage: `url("1.jpg")`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat',width:'1250px',height:'750px',color:'purple',font:"Georgia"
+      }}>
+        <h3>
+         
+        Noman Ali Bajwa  says HALA MADRID !!!
+        <hr />
+        <Madred UCL= "THIRTEEN(13)"  Laliga= "THIRTY FOUR(34)" />
+         <hr />
+         
+      </h3>
+      </div>
+
+
+
+
   );
 }
 
